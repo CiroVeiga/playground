@@ -23,6 +23,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
 Cypress.Commands.add('goHome', () => {
     cy.viewport(1920, 1080)
 
